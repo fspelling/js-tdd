@@ -1,0 +1,23 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "Aplicação com boas praticas em java script seguindo o padrão de testes TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fspelling/js-tdd.git"
+  },
+  "keywords": [
+    "js",
+    "tdd"
+  ],
+  "author": "Fernando Spelling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fspelling/js-tdd/issues"
+  },
+  "homepage": "https://github.com/fspelling/js-tdd#readme"
+}
