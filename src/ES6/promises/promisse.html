@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>02 - Promisse</title>
+</head>
+
+<body>
+</body>
+
+<script>
+    var promisse = new Promise((sucess, error) => {
+        console.log('rodando');
+
+        setTimeout(() => {
+            if (true)
+                sucess('sucess');
+            else
+                error('error');
+        }, 2000);
+    });
+
+    promisse
+        .then((data) => {
+            console.log(data);
+            return 'OK';
+        })
+        .then((data) => {
+            console.log(data);
+        })
+        .catch((data) => {
+            console.log(data);
+        });
+</script>
+
+</html>

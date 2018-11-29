@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>02 - Destructuring</title>
+</head>
+
+<body>
+</body>
+
+<script>
+    var data = {
+        nome: 'test',
+        social: {
+            face: 'face',
+            conta: 'google'
+        }
+    }
+
+    var { nome } = data;
+    console.log(nome);
+
+    var { face: facebook, conta } = data.social;
+    console.log(facebook);
+    console.log(conta);
+</script>
+
+</html>
