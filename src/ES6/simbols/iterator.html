@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>02 - Simbols</title>
+</head>
+
+<body>
+</body>
+
+<script>
+    var texto = 'ireland';
+    var iterator = texto[Symbol.iterator]();
+
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+
+    for (let item of texto)
+        console.log(item);
+</script>
+
+</html>

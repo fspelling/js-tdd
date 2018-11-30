@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>02 - Simbols</title>
+</head>
+
+<body>
+</body>
+
+<script>
+    let nomes = getNomes();
+
+    console.log(nomes);
+    console.log(nomes.next());
+    console.log(nomes.next());
+    console.log(nomes.next());
+    console.log(nomes.next());
+
+    for(let nome of getNomes())
+        console.log(nome);
+
+    function* getNomes() {
+        yield "nome 1";
+        yield "nome 2";
+        yield "nome 3";
+    }
+</script>
+
+</html>
