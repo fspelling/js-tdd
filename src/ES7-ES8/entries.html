@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>03 - Entries</title>
+</head>
+
+<body>
+</body>
+
+<script>
+    var animals = { calmel: 3, llama: 2, alcapa: 4 };
+    console.log(Object.entries(animals));
+
+    var map = new Map(Object.entries(animals));
+    console.log(Object.keys(animals));
+    console.log(map.has('calmel'));
+    console.log(map.get('calmel'));
+</script>
+
+</html>
