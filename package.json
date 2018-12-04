@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/*.js --fix",
-    "test": "./node_modules/.bin/mocha test/**/*.spec.js"
+    "test": "./node_modules/.bin/mocha test/**/*.spec.js",
+    "test:tdd": "./node_modules/.bin/mocha test/**/*.spec.js --watch"
   },
   "repository": {
     "type": "git",
